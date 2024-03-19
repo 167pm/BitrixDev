@@ -1,0 +1,210 @@
+
+
+body{
+    background: black;
+}
+
+.welcome-blocks{
+    background-color: #B6F0EC;
+    width: 592px;
+    height: 300px;
+    border-radius: 16px;
+    margin: 20px;
+    display: flex; /* Делаем блок Flexbox-контейнером */
+    flex-direction: column; /* Устанавливаем направление элементов в колонку */
+    justify-content: center; /* Выравнивание по вертикали по центру */
+    align-items: center; /* Выравнивание по горизонтали по центру */
+}
+
+.welcome-block-text{
+    padding: 40px;
+}
+
+.hello-text{
+    font-family: Gilroy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+
+.image-blocks{
+    background-color: #FE6D40;
+    display: inline-block;
+    width: 592px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.new-employee-blocks{
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-employee-book{
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: -1px;
+    float: right;
+}
+
+.new-employee-set{
+    display: block;
+    position: absolute;
+    top: 110px;
+}
+
+.new-employee-love{
+    display: block;
+    position: absolute;
+    right: ;
+}
+
+.new-employee-main {
+    display: flex; /* Изменено с inline-block на flex */
+    justify-content: left; /* Выравнивает дочерние элементы по центру горизонтально */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку, если они не помещаются */
+    /* background: black; */
+    width: 1200px;
+    height: auto; /* Убедитесь, что это свойство работает как ожидается */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-employee-main-blocks {
+    display: inline-block; /* Это уже может быть необязательно, зависит от вашего дизайна */
+    width: 380px;
+    height: 300px;
+    position: relative; /* Если вы используете абсолютное позиционирование внутри, это оставьте */
+    margin: 10px; /* Добавлено для небольшого отступа между блоками, адаптируйте под свои нужды */
+}
+
+
+.main-text{
+    color: white;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+}
+
+.main-points{
+    color: grey;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.main-points:hover{
+    color: #F8E800;
+}
+
+.new-employee-icon{
+    display: flex;
+    background: #181818;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+.new-employee-icon img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.new-employee-contact{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid var(--border-light, #353737);
+    background: var(--bg-foreground, #181818);
+    height: 100px;
+}
+
+.new-employee-contact h1{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    overflow: hidden;
+    color: var(--text-primary, #F3F3F3);
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.new-employee-contact-manager {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--M, 16px);
+    align-self: stretch;
+}
+
+.manager-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--XS, 4px);
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 220px;
+    height: 45px;
+}
+
+.manager-name{
+    color: white;
+    font-family: Lato;
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    color: var(--text-primary, #F3F3F3);
+}
+
+.manager-job{
+    color: var(--text-secondary, #B9B9B9);
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px; /* 110% */
+    margin: 0;
+}
+
+.contact-btn{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--S, 8px);
+    background: var(--bg-accent-yellow, #F8E800);
+}
+
+.contact-btn-icon{
+
+}
+
+@font-face {
+    font-family: "lato";  
+    src: url("../Новому сотруднику/fonts/lato/lato-regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+     }

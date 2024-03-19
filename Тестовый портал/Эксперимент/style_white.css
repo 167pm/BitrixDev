@@ -1,0 +1,584 @@
+body.white, body.white .main-content,body.white .vote-box-block > div,body.white ol.vote-box-block>li{
+    background: #F3F3F3;
+}
+
+body.white::-webkit-scrollbar-track,body.white .content-birthday::-webkit-scrollbar {
+    background: #F3F3F3;        /* цвет дорожки */
+}
+body.white::-webkit-scrollbar-thumb,body.white .content-birthday::-webkit-scrollbar {
+    background-color: #FFFFFF;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid #FFFFFF;  /* padding вокруг плашки */
+}
+
+
+body.white .main-menu li i{
+     display: block;
+     width: 45px;
+     height: 45px;
+     min-width: 45px;
+     background: url("/bitrix/templates/betboom/images/icon_white/Icons.svg");
+     background-size:80px;
+     transition: opacity .3s;
+     margin-right: 14px;
+ }
+body.white .main-menu-block .sub_menu{
+    padding-left: 0px;
+}
+body.white .main-menu-block.active .sub_menu{
+    padding-left: 30px;
+}
+body.white .content-birthday .day-title{
+   color: #000000;
+}
+/*icon menu start*/
+body.white .main-menu li i.news{
+    background: url("/bitrix/templates/betboom/images/icon_white/Icon-news.svg");
+    background-size: 80px;
+    background-position-y: 8px;
+    background-position-x: 2px;
+    background-repeat: repeat-x;
+}
+body.white .main-menu li i.footbol,body.white .main-menu li.selected i.footbol{
+    background: url(/bitrix/templates/betboom/images/icons/footbol.svg);
+    background-size: 130px;
+    background-position-y: 2px;
+    background-position-x: -91px;
+    background-repeat: no-repeat;
+}
+body.white .main-menu li:hover i.footbol,body.white  .main-menu li.selected i.footbol{
+    background-position-x: -43px;
+}
+
+
+
+body.white .main-menu li i.glav{
+    background-position-y: 0;
+}
+body.white .main-menu li i.zayav{
+    background-position-y: -40px;
+}
+body.white .main-menu li i.tel{
+    background-position-y: -124px;
+}
+body.white .main-menu li i.vacancii{
+    background-position-y: -85px;
+}
+body.white .main-menu li i.new_user{
+    background-position-y: 215px;
+}
+body.white .main-menu li i.photo{
+    background-position-y: 256px;
+}
+body.white .main-menu li i.fitnes{
+    background-position-y: 131px;
+}
+body.white .main-menu li i.communities{
+    background-position-y: 298px;
+}
+body.white .main-menu li i.bank_deas{
+    background-position-y: 172px;
+}
+body.white .main-menu li i.feedback{
+    background-position-y: 92px;
+}
+body.white .main-menu li i.helpdesk{
+    background-position-y: 50px;
+}
+
+body.white .main-menu li i{
+    background-position-x: 82px;
+}
+body.white .main-menu li:hover i,body.white .main-menu li.selected i{
+    background-position-x: 42px;
+}
+/*icon menu end*/
+
+
+
+body.white p, body.white h2,body.white .h2,body.white .h1,body.white h1,body.white .h4,body.white h4,body.white .h3,body.white h3{
+    color: #000000;
+}
+body.white .main-menu li:hover, body.white .main-menu li.selected,body.white .footer-links a, body.white .main-menu a,body.white .footer-contact,body.white .welcome-item-text .preview_text,body.white .welcome-item-text .title,
+body.white .rss-date,body.white .bx-breadcrumb .bx-breadcrumb-item span,body.white .detal__text_news,body.white .detal__text_news a,body.white .item_smile .count,
+body.white .popup-window-title,body.white input,body.white  textarea,body.white  .field-name,body.white  label,body.white #add_file_input,body.white .name-section,
+body.white .dark-pop li,body.white .popup-window-titlebar-text,body.white .support-ticket-edit-form input[type=text],body.white .feedback input[type="text"]
+body.white .feedback .popup-window-content,body.white .feedback input[type="text"],body.white .feedback .popup-window-content,body.white .dark-pop,body.white .dark-pop a
+{
+    color: #000000;
+}
+
+body.white footer{
+    height: auto;
+}
+body.white .rss-title,body.white .rss-items .rss-title h3{
+    color: #737373;
+}
+body.white .rss-items .rss-description p{
+    color: #737373;
+}
+body.white .menu-switcher-lines, body.white .menu-switcher-lines:before,body.white .menu-switcher-lines:after{
+    display: block;
+    background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 9.99966L4 9.99966" stroke="%230D0D0D" stroke-width="1.6" stroke-linecap="round"/><path d="M16 15.9997L4 15.9997" stroke="%230D0D0D" stroke-width="1.6" stroke-linecap="round"/><path d="M16 3.99966H4" stroke="%230D0D0D" stroke-width="1.6" stroke-linecap="round"/><path d="M15 11.9997L17 9.99966" stroke="%230D0D0D" stroke-width="1.6" stroke-linecap="round"/><path d="M15 7.99966L17 9.99966" stroke="%230D0D0D" stroke-width="1.6" stroke-linecap="round"/></svg>');
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    stroke: #0D0D0D !important;
+}
+
+body.white .main-menu li:hover, body.white .main-menu li.selected,body.white footer,body.white #header-inner,body.white .rss-item,body.white .news-block-slider .slider-for,
+body.white .content .main-content-item,body.white div.news-detail,body.white .content__faq,body.white .dark-pop,body.white .feedback input,body.white .feedback .popup-window-content,
+body.white div.structura-company,body.white div.items-structura-company{
+    background: #FFFFFF;
+}
+body.white div.news-detail{
+    box-shadow: none;
+    color: #000000;
+}
+body.white .header-search-input,body.white .search-title-top-result,body.white .search-title-top-item-text{
+color:#3E3E3E;
+}
+body.white .header-search-inner,body.white .search-title-top-result,body.white .item_smile,body.white .support-ticket-edit-form textarea,
+body.white .input-group-radio,body.white table.support-ticket-edit,body.white .feedback textarea,body.white .item-sub--structura-company
+{
+background:#F7F7F7 ;
+}
+body.white .inner-block-structura-company .group-employees .photo-employees>div{
+    border: 3px solid #F7F7F7;
+}
+body.white .item-sub--structura-company{
+    border: 1px solid #d7d7d7;
+}
+body.white .item-sub--structura-company.open{
+    border: 1px solid #656567;
+}
+body.white .item-sub--structura-company .hr,body.white .menu-structura-company li.active>span{
+    background: #d7d7d7;
+}
+body.white .item-sub--structura-company.open .hr{
+    background: #656567;
+}
+body.white .photo-persona{
+    background: #b9bcbe;
+}
+body.white .inner-block-structura-company .text-persona .work-position,body.white .inner-block-structura-company .text-persona .name,body.white .main-structura-company,
+body.white #pop__windows_message .h2
+{
+    color:#000000;
+}
+body.white .menu-structura-company li span:before{
+    background: url("/bitrix/templates/betboom/images/icon_white/arrow-down.svg#arrow");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+body.white table.support-ticket-edit-form{
+    background: none;
+}
+
+body.white .search-title-top-block-users .search-title-top-item-selected .search-title-top-item-link, body.white .search-title-top-block-sonetgroups .search-title-top-item-selected .search-title-top-item-link{
+    background: #FFFFFF;
+}
+
+body.white .timeman-container{
+    background: #F7F7F7;
+    color:#000000;
+}
+body.white .input-group-radio label{
+    background: #ffffff;
+    color:#000000;
+    border: 1px solid #000000;
+}
+body.white .input-group-radio input:checked + label,body.white  #pop__windows_message .pop_windows-button-link-cancel{
+    background: #F8E800;
+    color: #0D0D0D;
+    border: 1px solid #F8E800;
+}
+body.white .popup-window-button.pop_windows-button-cancel{
+    color: #ffffff;
+}
+body.white .input-files [type='file'] + label.first-file,body.white .input-files.file-in,body.white .row [type='file'] + label.first-file,body.white .input-file.file-in{
+    background: #F7F7F7;
+}
+
+body.white .input-files [type='file'] + label.file-add,body.white .row [type='file'] + label.file-add{
+    background: #666;
+}
+body.white #add_file_input:before,body.white .input-files .icon{
+    content: url("/bitrix/templates/betboom/images/icon_white/icon_uplod_files.svg");
+}
+body.white .ticket-edit-message.dark,body.white .ticket-edit-message.light{
+    background-color: #cccccc;
+}
+body.white .ticket-edit-message .content-messasge div:not(.user_name){
+    color: #000000;
+}
+
+body.white .input-list-radio input:checked + label{
+    border: 2px solid #F8E800;
+    background: #F8E800;
+}
+body.white .header-personal .user-name a,body.white .menu-user-buttom a{
+    color:#0D0D0D;
+}
+body.white .menu-user-buttom path{
+    stroke: #0D0D0D !important;
+}
+
+body.white .icon_bell  path{
+    stroke:#0D0D0D !important;
+}
+
+body.white .welcome-block-slider{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+body.white .block-date-birthday{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+body.white .content-birthday .birthday-block-user {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+body.white .birthday-blocks .name, body.white .birthdayElementUser .popup-window-titlebar-text,body.white .birthdayElementUser .popup-window-content,body.white .birthdayElementUser input{
+color: #000000;
+}
+body.white .birthday-blocks .work{
+    color: #494949;
+}
+
+body.white .select__title,body.white.text__label input,body.white #fitness-form input{
+    background: #F7F7F7;
+    color: #000000;
+}
+body.white label[data-state="active"] .select__content{
+    background: #F7F7F7;
+    color: #000000;
+    border: 1px solid #d7d7d7;
+}
+
+body.white .vote-item-question ,body.white .vote-item-header.list-visible{
+    border-bottom: 3px solid #d7d7d7;
+    color: #000000;
+}
+body.white .vote-item-vote .question-group{
+    border-bottom: 1px solid #d7d7d7;
+}
+body.white .vote-item-header.list-hidden:after{
+    content: url("/bitrix/templates/betboom/images/icons/plus-red.svg");
+    cursor: pointer;
+}
+body.white .vote-item-header.list-visible:after{
+    content: url("/bitrix/templates/betboom/images/icons/minus-red.svg");
+}
+
+body.white .vote-item-vote .question-group:last-child{
+    border-bottom: none;
+}
+body.white .vote-items-list .input-type-textfield input{
+    background: #ffffff;
+}
+body.white .vote-item-vote .vote-answer-item-memo textarea{
+    background: #ffffff;
+    color: #000000;
+}
+
+body.white .select__content li:hover{
+    background-color: #d7d7d7;
+}
+
+body.white #fitness-form input:hover{
+    border-color: #d7d7d7;
+
+}
+
+body.white #fitness-form .checkbox__label:after{
+    background: #7e7e7e;
+}
+body.white #fitness-form .checkbox__label.checked:after {
+    background: #ffffff;
+}
+body.white .checkbox__label.checked:before{
+    background: #FFD000;
+}
+
+body.white #fitness-form input:focus{
+    border-color: #d7d7d7;
+
+    outline: 0;
+    outline-offset: 0;
+}
+
+
+
+body.white .select__content::-webkit-scrollbar-thumb{
+    background-color: #d7d7d7;
+    border-radius: 20px;
+    border: 1px solid #d7d7d7;
+}
+.select__content::-webkit-scrollbar-track {
+    background: #F7F7F7;
+    border-radius: 20px 0;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+body.white .select__title:hover{
+    border: 1px solid #d7d7d7;
+}
+
+body.white .select__title:hover::after,body.white .select__title:hover::before{
+    background-color: #d7d7d7;
+}
+
+body.white .popup-window,body.white .birthdayElementUser .popup-window-content,body.white .birthdayElementUser input,body.white .birthdayElementUser textarea{
+    background: #FFFFFF;
+    color: #000000;
+}
+body.white .popup-window-close-icon,body.white .birthdayElementUser textarea,body.white #pop-smile-block
+{
+    /*background: #F7F7F7;*/
+
+}
+body.white .birthdayElementUser .birthday-button:active,body.white .birthday-blocks .birthday-button:active,body.white #pop-slime-voite{
+    background: #F7F7F7;
+    color: #000000;
+    border: 1px solid #F7F7F7;
+}
+
+
+
+body.white div.birthday-slider:before {
+    left: 0;
+    background-blend-mode: multiply;
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+    background: linear-gradient(90deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+}
+body.white div.birthday-slider:after {
+    right: 0;
+    background-blend-mode: multiply;
+    background: -webkit-linear-gradient(270deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+    background: -moz-linear-gradient(270deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+    background: linear-gradient(270deg, rgba(255, 255, 255) 10%, rgba(255, 255, 255, 0) 80%);
+}
+
+body.white .popup-window-close-icon:after{
+background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='10' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.787 1L5 3.787 2.213 1 1 2.213 3.787 5 1 7.787 2.213 9 5 6.213 7.787 9 9 7.787 6.213 5 9 2.213' fill='dark' fill-rule='evenodd'/%3E%3C/svg%3E")
+}
+
+body.white .popup-window-overlay{
+    background: rgba(0, 0, 0, 0.2);
+}
+body.white .checkbox__label:before{
+    background: #d7d7d7;
+}
+
+body.white .item_smile.icon path,body.white .item_smile.icon circle{
+    fill: #000000;
+}
+body.white .item_smile.icon rect{
+    stroke: #000000;
+}
+
+body.white .non_comments,body.white a.reviews-form-switcher{
+    color: #000000;
+    background: #ffffff;
+}
+body.white .bx-editor-iframe,body.white form .bxhtmled-textareabody.white,body.white body, body.white form .bxhtmled-textarea{
+    color: #000000 !important;
+    background: #ffffff !important;
+}
+body.white .bxhtmled-top-bar-btn-active{
+    background:#F7F7F7 !important;
+}
+body.white form .bxhtmled-button-smile i{
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='3' y='2.75' width='10.5' height='10.5' rx='5.25' stroke='black' stroke-width='1.5'/%3E%3Crect x='2.75' y='2.5' width='11' height='11' rx='5.5' stroke='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.25002 9.5C7.87767 9.5 7.53701 9.36433 7.27477 9.13972C7.1909 9.06789 7.06526 9.05967 6.98295 9.13329L6.16304 9.86662C6.08069 9.94028 6.07322 10.0673 6.15219 10.1446C6.69313 10.6738 7.43348 11 8.25002 11C9.1318 11 9.92473 10.6196 10.4736 10.0139C10.5512 9.92823 10.5305 9.79543 10.4351 9.73015L9.51296 9.09915C9.43007 9.04243 9.31887 9.05716 9.24365 9.12372C8.97905 9.35787 8.63113 9.5 8.25002 9.5Z' fill='black'/%3E%3Ccircle cx='10.25' cy='7' r='1' fill='black'/%3E%3Ccircle cx='6.25' cy='7' r='1' fill='black'/%3E%3C/svg%3E%0A") !important;
+}
+
+form .bx-html-editor, .feed-add-post-form, .bxhtmled-iframe-cnt{
+    background: #F7F7F7 !important;
+}
+
+body.white .bxhtmled-popup {
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+}
+body.white .reviews-reply-buttons [type="submit"],body.white #fitness-form .send_button,body.white #fitness-form .submitte_button{
+    border: 1px solid #F8E800;
+    background: #F8E800;
+    color: #000000;
+}
+
+body.white .reviews-reply-buttons [type="submit"]:active,body.white #fitness-form .send_button:active,body.white #fitness-form .submitte_button:active,
+body.white .pop_windows-button-save:active
+{
+    background: #F7F7F7;
+    color: #000000;
+    border: 1px solid #F8E800;
+}
+body.white hr.black{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+body.white .ticket-list li:not(.disable){
+    background: #EBEBEB;
+    color:#000000;
+}
+body.white .ticket-list li:hover{
+    background: #cacaca;
+}
+body.white .status-ticket{
+    background: none;
+}
+body.white .black-square .navigation-text-cont:after {
+    content: url("/bitrix/templates/betboom/images/icon_white/arrow.svg");
+    display: block;
+}
+
+body.white .black-square .navigation-button,body.white .black-square .navigation-page-numb,body.white  .black-square .navigation-current-page{
+    background: #EBEBEB;
+    color: #000000;
+}
+body.white .black-square .navigation-page-numb:hover,body.white .black-square .navigation-button:hover:not(.navigation-disabled){
+    background: #cacaca;
+}
+
+body.white .ticket-list li:not(.disable) span{
+    color: #000000;
+}
+body.white .button-border-yellow{
+    background: #F8E800;
+    color: #000000;
+}
+body.white .news__item,body.white div.photo-album-photos-top{
+    background:#ffffff;
+}
+body.white .reviews-post-table.reviews-post-odd,body.white .reviews-post-table.reviews-post-even{
+background:#E6E6E6 ;
+}
+body.white .reviews-text,body.white div.photo-album-photos-top{
+    color: #000000;
+}
+body.white .message-post-date{
+    color: #575B5B;
+}
+body.white div.reviews-post-reply-buttons .reviews-button-small::before{
+    background-color: #000000;
+}
+body.white .more_comments .text,body.white .less_comments .text{
+    color: #000000;
+    background:#F3F3F3
+}
+body.white .more_comments .hr,body.white .less_comments .hr{border-bottom:1px solid #D5D5D5}
+
+body.white div.photo-album-photos-top:before{
+    content:url("/bitrix/templates/betboom/images/icon_white/icon_image.svg");
+}
+body.white .photo-item-cont .photo-item-inner:after{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 7.17%, rgba(225,225, 225, 0.8) 100%);
+}
+body.white .content-birthday.center{
+    padding: 20px 0px;
+    background: none;
+}
+
+
+body.white .main-grid-row-head,body.white .main-grid .main-grid-row.main-grid-row-empty:hover>td.main-grid-cell,body.white .main-grid .main-grid-row.main-grid-row-empty>td.main-grid-cell,body.white .main-grid-panel-wrap,body.white .main-grid-panel-wrap {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+body.white .main-grid-cell,body.white .main-grid-row-head {
+    border-bottom: solid 2px #C3C3C3;
+    background: #ffffff;
+}
+
+body.white .ui-action-panel-item-title,body.white .main-grid-cell-content .bx-disk-object-name a,body.white .bx-disk-user-link a,body.white .bx-disk-file-title,body.white .bx-disk-folder-title{
+    color: #000000;
+}
+
+body.white .main-grid:not(.main-grid-ondrag) .main-grid-row:hover>.main-grid-cell,body.white  .main-grid:not(.main-grid-ondrag) .main-grid-row.main-grid-row-over>.main-grid-cell{
+    background: #F3F3F3;
+}
+
+body.white .disk-folder-list-item,body.white  .popup-window-content,body.white .ui-action-panel {
+    background: #F3F3F3;
+    color: #000000;
+}
+body.white .disk-folder-list-item-title-link,body.white .menu-popup-item:hover .menu-popup-item-text,body.white .menu-popup-item .menu-popup-item-text{
+    color: #000000;
+}
+body.white .ui-toolbar-title-item{
+    color: #666;
+}
+
+
+body.white .menu-popup-item:hover,body.white  .menu-popup-item.menu-popup-item-open,body.white  .ui-action-panel-item:hover,body.white  .ui-action-panel-item-active{
+    background: #ffffff;
+}
+body.white .bx-disk-folder-icon {
+    background: url("/bitrix/templates/betboom/images/icon_white/folder-dark.svg") no-repeat;
+    background-size: contain;
+}
+body.white .input-type-rank label{
+    background: #C3C3C3;
+}
+
+body.white .input-type-rank input:checked+label {
+    background: #FFD000;
+}
+
+@media (max-width: 1280px){
+    body.white .main-menu-block.mobile-visual {
+
+        background: rgba(225, 225, 225, 0.8);
+        backdrop-filter: blur(20px);
+
+    }
+}
+@media (max-width: 786px){
+    body.white .news-block-slider {
+        background: #E6E6E6;
+    }
+    body.white .news-block-slider .slider-for{
+        background: none;
+    }
+}
+
+body.white .filter select{
+    color:#181818;
+    background: #ffffff;
+}
+
+
+.white .side-panel-label-icon-close {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3e%3cpath fill='%23000' fill-rule='evenodd' d='M11.381 1.746L7.138 5.988l4.248 4.249-1.151 1.152L5.986 7.14l-4.242 4.244-1.147-1.146L4.84 5.994.592 1.747 1.744.595l4.248 4.247L10.235.6z'/%3e%3c/svg%3e"); opacity:.85;
+}
+.white .side-panel-label-icon-new-window {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='13' height='14' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M4.991.065v1.67H2.17a.5.5 0 00-.492.41l-.008.09v8.651a.5.5 0 00.41.492l.09.008h8.65a.5.5 0 00.493-.41l.008-.09-.001-2.846 1.67.001v4.015a1 1 0 01-1 1H1a1 1 0 01-1-1V1.066a1 1 0 011-1h3.991zm7 0a1 1 0 011 1l-.001 3.987h-1.67V3.035l-4.39 4.39-1.28-1.28 4.409-4.41H7.998V.065h3.992z' fill='%23878F98' fill-rule='evenodd'/%3e%3c/svg%3e"); opacity:.6;}
+
+.white .side-panel-label-icon-copy-link {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M10.467 5.728c.182.183.34.38.473.59L9.674 7.584a1.91 1.91 0 00-3.015-.741l-.11.1L2.694 10.8a1.91 1.91 0 002.592 2.804l.11-.102 1.309-1.308c.703.25 1.42.257 2.149.019l-2.508 2.505a3.442 3.442 0 11-4.868-4.868l4.12-4.12a3.442 3.442 0 014.869 0zm4.426-4.425a3.442 3.442 0 010 4.868l-4.12 4.12a3.442 3.442 0 01-5.341-.59l1.265-1.265a1.91 1.91 0 003.015.741l.11-.101 3.856-3.856a1.91 1.91 0 00-2.592-2.803l-.11.102-1.31 1.308a3.232 3.232 0 00-2.148-.019l2.507-2.505a3.442 3.442 0 014.868 0z' fill='%23878F98' fill-rule='evenodd'/%3e%3c/svg%3e"); opacity:.6}
+
+.white .side-panel-label {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.white .side-panel-label:hover .side-panel-label-icon-close:after{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3e%3cpath fill='%23000' fill-rule='evenodd' d='M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm0 1.771C6.35 1.771 1.771 6.351 1.771 12c0 5.65 4.58 10.229 10.229 10.229 5.65 0 10.229-4.58 10.229-10.229 0-5.65-4.58-10.229-10.229-10.229z'/%3e%3c/svg%3e");
+    opacity:.4}
+
+
+body.white ::-webkit-input-placeholder {color:#3E3E3E;}
+body.white ::-moz-placeholder          {color:#3E3E3E;}/* Firefox 19+ */
+body.white :-moz-placeholder           {color:#3E3E3E;}/* Firefox 18- */
+body.white :-ms-input-placeholder      {color:#3E3E3E;}
