@@ -1,15 +1,13 @@
-
-
 body{
     background: black;
 }
 
 .welcome-blocks{
     background-color: #B6F0EC;
-    width: 592px;
+    width: 50%;
     height: 300px;
     border-radius: 16px;
-    margin: 20px;
+    margin-right: 20px;
     display: flex; /* Делаем блок Flexbox-контейнером */
     flex-direction: column; /* Устанавливаем направление элементов в колонку */
     justify-content: center; /* Выравнивание по вертикали по центру */
@@ -26,12 +24,18 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 40px; /* 125% */
+    color: #0D0D0D;
+}
+
+.descr-text{
+    color: #0D0D0D;
+    width: 60%;
 }
 
 .image-blocks{
     background-color: #FE6D40;
     display: inline-block;
-    width: 592px;
+    width: 50%;
     height: 300px;
     border-radius: 16px;
 }
@@ -41,26 +45,33 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .new-employee-book{
-    display: block;
-    position: absolute;
-    right: 50px;
-    top: -1px;
+    display: flex;
+    position: relative;
+    /* right: 50px; */
+    top: -20px;
     float: right;
 }
 
 .new-employee-set{
-    display: block;
-    position: absolute;
-    top: 110px;
+    display: flex;
+    position: relative;
+    top: 84px;
+}
+
+.set-img{
+    display: flex;
 }
 
 .new-employee-love{
-    display: block;
-    position: absolute;
-    right: ;
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: -200px;
 }
 
 .new-employee-main {
@@ -68,7 +79,7 @@ body{
     justify-content: left; /* Выравнивает дочерние элементы по центру горизонтально */
     flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку, если они не помещаются */
     /* background: black; */
-    width: 1200px;
+    width: 100%;
     height: auto; /* Убедитесь, что это свойство работает как ожидается */
     margin-left: auto;
     margin-right: auto;
@@ -76,10 +87,10 @@ body{
 
 .new-employee-main-blocks {
     display: inline-block; /* Это уже может быть необязательно, зависит от вашего дизайна */
-    width: 380px;
+    width: 33.3%;
     height: 300px;
     position: relative; /* Если вы используете абсолютное позиционирование внутри, это оставьте */
-    margin: 10px; /* Добавлено для небольшого отступа между блоками, адаптируйте под свои нужды */
+    margin-bottom: 40px;
 }
 
 
@@ -99,7 +110,6 @@ body{
     text-decoration: none;
     margin-top: 10px;
     font-size: 16px;
-    font-family: Lato;
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
@@ -132,7 +142,8 @@ body{
     border-radius: 16px;
     border: 1px solid var(--border-light, #353737);
     background: var(--bg-foreground, #181818);
-    height: 100px;
+    height: 150px;
+    width: 33.3%;
 }
 
 .new-employee-contact h1{
@@ -141,7 +152,6 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 125% */
-    overflow: hidden;
     color: var(--text-primary, #F3F3F3);
     font-feature-settings: 'clig' off, 'liga' off;
     text-overflow: ellipsis;
@@ -151,7 +161,7 @@ body{
 .new-employee-contact-manager {
     display: flex;
     align-items: flex-start;
-    gap: var(--M, 16px);
+    gap: var(--M, 10px);
     align-self: stretch;
 }
 
@@ -169,7 +179,6 @@ body{
 
 .manager-name{
     color: white;
-    font-family: Lato;
     margin: 0;
     font-size: 14px;
     font-style: normal;
@@ -179,7 +188,6 @@ body{
 
 .manager-job{
     color: var(--text-secondary, #B9B9B9);
-    font-family: Lato;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -198,13 +206,123 @@ body{
     background: var(--bg-accent-yellow, #F8E800);
 }
 
-.contact-btn-icon{
-
+@media (max-width: 1024px) {
+.welcome-blocks{
+    margin-right: 8px;
 }
 
-@font-face {
-    font-family: "lato";  
-    src: url("../Новому сотруднику/fonts/lato/lato-regular.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal;
-     }
+.new-employee-set {
+    top: 83px;
+    right: 20px;
+}
+
+.welcome-blocks .image-blocks{
+    height: 245px;
+}
+.new-employee-book{
+    width: 70%;
+}
+.new-employee-love{
+    top: -230px;
+}
+.new-employee-set{
+    top: 45px;
+    right: 20px;
+    height: 200px;
+}
+.hello-text{
+    font-size: 24px;
+}
+.descr-text{
+    font-size: 14px;
+}
+.main-text{
+    font-size: 20px
+}
+.main-points{
+    font-size: 14px;
+}
+.new-employee-contact h1{
+    font-size: 20px;
+}
+.manager-name{
+    font-size: 12px;
+}
+}
+
+@media (max-width: 750px) {
+
+.new-employee-main{
+    flex-direction: column;
+}
+.new-employee-main-blocks{
+    height: 20%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.new-employee-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+.new-employee-icon img {
+    width: 70%;
+    height: 50%;
+}
+.new-employee-blocks{    
+    flex-direction: column-reverse;
+}
+.welcome-blocks{
+    width: 100%;
+    height: 120px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-right: 0;
+}
+.image-blocks{
+    width: 100%;
+    height: 120px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.hello-text{
+    font-size: 20px;
+    line-height: 24px;
+    width: 300px;
+}
+.descr-text{
+    width: 80%;
+    font-size: 10px;
+    margin: 0;
+}
+.new-employee-set{
+    height: 100px;
+    left: 30px;
+    top: 20px;
+}
+.new-employee-love{
+    width: 70px;
+    top: -100px;
+    left: 90px;
+}
+.new-employee-book{
+    width: 50%;
+    right: 30px;
+    top: 0;
+}
+.welcome-block-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-points{
+    display: none;
+    font-size: 14px;
+}
+
+.main-text{
+    font-size: 16px;
+}
+}

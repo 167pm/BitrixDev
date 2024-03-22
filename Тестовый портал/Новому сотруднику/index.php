@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <div class="new-employee-blocks">
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Новому сотурднику");
+
+?>
+<link rel="stylesheet" href="style.css">
+ <div class="new-employee-blocks">
         <div class="welcome-blocks">
             <div class="welcome-block-text">
                 <h1 class="hello-text">
@@ -22,16 +16,20 @@
             </div>
         </div>
         <div class="image-blocks">
-            <img src="/Тестовый портал/Новому сотруднику/img/Law_Icon_Flat_00000 2.png" class="new-employee-book" alt="">
-            <img src="/Тестовый портал/Новому сотруднику/img/BB_Business_Icons_01_0023 3.png" class="new-employee-set" alt="">
-            <img src="/Тестовый портал/Новому сотруднику/img/Like_Icon_Flat_00000 2.png" alt="" class="new-employee-love">
+            <img src="/novomu-sotrudniku/img/Law_Icon_Flat_00000 2.png" class="new-employee-book" alt="">
+            <div class="set-img">
+                <img src="/novomu-sotrudniku/img/BB_Business_Icons_01_0023 3.png" class="new-employee-set" alt="">
+            </div>
+            <div class="set-img">
+                <img src="/novomu-sotrudniku/img/Like_Icon_Flat_00000 2.png" alt="" class="new-employee-love">
+            </div>
         </div>
     </div>
 
     <div class="new-employee-main">
         <div class="new-employee-main-blocks">
             <div class="new-employee-icon">
-                <img src="/Тестовый портал/Новому сотруднику/img/Frame.svg" class="new-employee-icon-img" alt="">
+				<img src="/novomu-sotrudniku/img/Frame1.svg" class="new-employee-icon-img" alt="">
             </div>
             <h1 class="main-text">Новичку</h1>
             <a href="#" class="main-points">Ценности компании</a>
@@ -42,7 +40,7 @@
 
         <div class="new-employee-main-blocks">
             <div class="new-employee-icon">
-                <img src="/Тестовый портал/Новому сотруднику/img/Frame.svg" class="new-employee-icon-img" alt="">
+                <img src="/novomu-sotrudniku/img/Frame2.svg" class="new-employee-icon-img" alt="">
             </div>
             <h1 class="main-text">Средства коммуникации</h1>
             <a href="#" class="main-points">Корпоративный портал</a>
@@ -54,7 +52,7 @@
 
         <div class="new-employee-main-blocks">
             <div class="new-employee-icon">
-                <img src="/Тестовый портал/Новому сотруднику/img/Frame.svg" class="new-employee-icon-img" alt="">
+                <img src="/novomu-sotrudniku/img/Frame3.svg" class="new-employee-icon-img" alt="">
             </div>
             <h1 class="main-text">Выплаты и бонусы</h1>
             <a href="#" class="main-points">Заработная плата</a>
@@ -65,7 +63,7 @@
 
         <div class="new-employee-main-blocks">
             <div class="new-employee-icon">
-                <img src="/Тестовый портал/Новому сотруднику/img/Frame.svg" class="new-employee-icon-img" alt="">
+                <img src="/novomu-sotrudniku/img/Frame4.svg" class="new-employee-icon-img" alt="">
             </div>
             <h1 class="main-text">Спорт и здоровье</h1>
             <a href="#" class="main-points">Спортивные секции</a>
@@ -76,7 +74,7 @@
 
         <div class="new-employee-main-blocks">
             <div class="new-employee-icon">
-                <img src="/Тестовый портал/Новому сотруднику/img/Frame.svg" class="new-employee-icon-img" alt="">
+				<img src="/novomu-sotrudniku/img/Frame5.svg" class="new-employee-icon-img" alt="">
             </div>
             <h1 class="main-text">Заявки</h1>
             <a href="#" class="main-points">Отпуск</a>
@@ -88,16 +86,17 @@
         <div class="new-employee-contact">
             <h1 class="main-text">Остались вопросы?</h1>
             <div class="new-employee-contact-manager">
-                <img src="/Тестовый портал/Новому сотруднику/img/avatar.png" alt="" class="manager-photo">
+                <img src="/novomu-sotrudniku/img/avatar.png" alt="" class="manager-photo">
                 <div class="manager-info">
                     <p class="manager-name">Екатерина Лукина</p>
                     <p class="manager-job">Руководитель направления внутренних коммуникаций и корпоративной</p>
                 </div>
                 <div class="contact-btn">
-                    <img src="/Тестовый портал/Новому сотруднику/img/Frame_contact.svg" alt="" class="contact-btn-icon">
+					<img src="/novomu-sotrudniku/img/Frame_contact.svg" alt="" class="contact-btn-icon">
                 </div>
             </div>
         </div>
     </div>
-</body>
-</html>
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
